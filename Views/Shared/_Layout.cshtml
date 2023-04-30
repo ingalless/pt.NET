@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <nav class="bg-blue-900 text-white flex w-full h-48">
-            
+        <nav class="bg-blue-900 text-white w-full py-4">
+            <ul class="flex items-center justify-content">
+                <li><a asp-controller="Speakers" asp-action="Index">Speakers</a></li>
+                <li><a asp-controller="Congregations" asp-action="Index">Congregations</a></li>
+            </ul>
         </nav>
     </header>
     <div class="container">
